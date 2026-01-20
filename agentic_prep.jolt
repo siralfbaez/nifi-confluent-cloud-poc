@@ -1,0 +1,23 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "source_id": "metadata.sourceSystem",
+      "timestamp": "metadata.eventTime",
+      "user_query": "payload.content",
+      "raw_data": {
+        "user_id": "payload.actorId",
+        "session_token": "payload.sessionId"
+      },
+      // Hardcoding a classification for the Agent
+      "#AGENTIC_PIPELINE": "metadata.pipelineType"
+    }
+  },
+  {
+    "operation": "default",
+    "spec": {
+      "status": "CLEANED",
+      "version": "1.0"
+    }
+  }
+]

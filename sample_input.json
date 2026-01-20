@@ -1,0 +1,9 @@
+{
+  "source_id": "EXT-API-001",
+  "timestamp": "2026-01-19T18:15:00Z",
+  "user_query": "How do I optimize a 4-node NiFi cluster for Kafka?",
+  "raw_data": {
+    "user_id": "user_8821",
+    "session_token": "abc-123-xyz"
+  }
+}
