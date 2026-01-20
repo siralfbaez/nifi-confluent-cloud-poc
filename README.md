@@ -51,3 +51,31 @@ graph TD
 From the project root, run:
 ```bash
 docker-compose up -d
+```
+
+
+This will pull the latest NiFi and Zookeeper images and initialize the ensemble.
+
+3. Access the UI
+Once the containers are healthy, access the individual nodes at:
+
+Node 1: https://localhost:8443/nifi
+
+Node 2: https://localhost:8444/nifi (if ports are mapped sequentially)
+
+4. Deploy the Agentic Logic
+Open the NiFi UI.
+
+Create a JoltTransformJSON processor.
+
+Copy the contents of agentic_prep.jolt from this repo and paste it into the Jolt Specification property.
+
+Use the sample_input.json to verify the transformation.
+
+5. Clean Up
+To stop the cluster and remove volumes:
+```bash
+docker-compose down -v
+```
+
+
