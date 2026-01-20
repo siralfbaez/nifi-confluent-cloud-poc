@@ -1,12 +1,6 @@
-Project Goal: Demonstrate a high-availability (4-node) NiFi cluster orchestrating multi-source data ingestion (SFTP/API), performing schema-based cleaning via JOLT, and streaming to Confluent Cloud using a centralized Schema Registry.
+# Project Goal: 
+Demonstrate a high-availability (4-node) NiFi cluster orchestrating multi-source data ingestion (SFTP/API), performing schema-based cleaning via JOLT, and streaming to Confluent Cloud using a centralized Schema Registry.
 
-# Structure 
-
-nifi-confluent-cloud-poc/
-├── docker-compose.yml       # 4-Node Cluster Config
-├── agentic_prep.jolt        # The JOLT Transformation logic
-├── sample_input.json        # Test data for the screen
-└── README.md                # Contains Mermaid Diagram & Project Specs
 # NiFi-Confluent-Cloud-POC (AI Agentic Learning)
 
 ## Architecture Diagram
