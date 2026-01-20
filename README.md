@@ -37,8 +37,8 @@ graph TD
     G --> I
     I --> J
     H -- "Validation" --> F
+```
 
-    ```
 
 ## 🚀 How to Run the POC
 
