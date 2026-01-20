@@ -38,6 +38,8 @@ graph TD
     I --> J
     H -- "Validation" --> F
 
+    ```
+
 ## 🚀 How to Run the POC
 
 ### 1. Prerequisites
